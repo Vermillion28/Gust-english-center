@@ -1,8 +1,8 @@
 /* Variables CSS pour une meilleure maintenabilité */
 :root {
-    --primary-color: #db9109;
+    --primary-color: rgb(0, 62, 112);
     --secondary-color: #006aff;
-    --dark-color: #2c3e50;
+    --dark-color: #273440;
     --light-color: #f5fbff;
     --text-color: #333;
     --text-light: #8c8c8c;
@@ -208,7 +208,7 @@ body {
 }
 
 .heroButtons button:last-child:hover {
-    background-color: #db9109;
+    background-color: var(--primary-color);
     color: var(--white);
     transform: translateY(-3px);
 }
