@@ -1,6 +1,6 @@
 /* Variables CSS pour une meilleure maintenabilité */
 :root {
-    --primary-color: rgb(0, 62, 112);
+    --primary-color: #db9109;
     --secondary-color: #006aff;
     --dark-color: #273440;
     --light-color: #f5fbff;
@@ -96,7 +96,7 @@ body {
 }
 
 .startButton button:hover {
-    background-color: #c27f08;
+    background-color: var(--primary-color);
     transform: translateY(-2px);
 }
 
@@ -208,9 +208,16 @@ body {
 }
 
 .heroButtons button:last-child:hover {
-    background-color: var(--primary-color);
-    color: var(--white);
     transform: translateY(-3px);
+}
+
+.heroButtons button a {
+    text-decoration: none;
+    color: var(--white);
+}
+.navbar button a {
+    text-decoration: none;
+    color: var(--white);
 }
 
 /* Sections communes */
@@ -226,7 +233,8 @@ h1 {
 }
 
 .our {
-    background: linear-gradient(346deg,rgba(0, 90, 168, 1) 46%, rgba(0, 157, 255, 1) 100%);
+    background: linear-gradient(345deg,rgba(217, 146, 15, 1) 46%, rgba(217, 193, 11, 1) 100%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
