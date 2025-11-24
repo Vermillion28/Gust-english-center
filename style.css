@@ -226,7 +226,9 @@ h1 {
 }
 
 .our {
-    color: var(--primary-color);
+    background: linear-gradient(346deg,rgba(0, 90, 168, 1) 46%, rgba(0, 157, 255, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* About Us Section */
